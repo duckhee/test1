@@ -1,0 +1,39 @@
+{
+  "name": "test1",
+  "authors": [
+    "duckhee <fain9301@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "2.10.6",
+    "angular": "angularjs#^1.5.0",
+    "angular-animate": "1.5.0",
+    "angular-dynamic-locale": "0.1.*",
+    "angular-i18n": "1.5.0",
+    "angular-translate": "2.11.0",
+    "angular-translate-loader-static-files": "2.11.0",
+    "rrule": "2.1.0",
+    "skycons": "darkskyapp/skycons"
+  },
+  "overrides": {
+    "moment": {
+        "main": "min/moment-with-locales.js"
+    },
+    "rrule": {
+        "main": "lib/rrule.js"
+    },
+    "skycons": {
+        "main": "./skycons.js"
+    }
+}
+}
